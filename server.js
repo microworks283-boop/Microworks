@@ -17,7 +17,7 @@ const OTP_TTL_MS = 5 * 60 * 1000;
 const otpChallenges = new Map();
 const otpSendTimes = new Map();
 if (!fs.existsSync(USERS_FILE)) fs.writeFileSync(USERS_FILE, '[]');
-const WEB_DIR = path.join(__dirname, '..', 'web');
+const WEB_DIR = path.join(__dirname, 'web');
 fs.mkdirSync(UPLOAD_DIR, { recursive: true });
 if (!fs.existsSync(DATA_FILE)) fs.writeFileSync(DATA_FILE, '[]');
 
