@@ -1,0 +1,5 @@
+node_modules/
+server/.env
+server/data/requests.json
+server/data/uploads/*
+!server/data/uploads/.gitkeep
